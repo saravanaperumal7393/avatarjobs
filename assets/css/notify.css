@@ -1,0 +1,342 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+
+
+.box::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+  border-radius: 5px
+}
+
+.box::-webkit-scrollbar-thumb
+{
+	background-color: black;
+	border: 2px solid black;
+  border-radius: 5px
+}
+
+
+
+.icons{
+  display: inline;
+  float: right
+}
+
+.notification{
+  padding-top: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.number{
+    height: 29px;
+    width: 28px;
+    background-color: #d63031;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.number:empty {
+   display: none;
+}
+
+.notBtn{
+  transition: 0.5s;
+  cursor: pointer
+}
+
+.notBtn .fa{
+  font-size: 25pt;
+  padding-bottom: 10px;
+  color: #550d9e;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.box{
+  width: 400px;
+  height: 0px;
+  border-radius: 10px;
+  /* transition: 0.5s; */
+  position: absolute;
+  overflow-y: scroll;
+  padding: 0px;
+  left: -300px;
+  margin-top: 5px;
+  background-color: #F4F4F4;
+  -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.1);
+  cursor: context-menu;
+}
+
+.notBtn .fa:hover {
+  color: #d63031;
+}
+
+.notBtn:hover > .box{
+  height: 15vh;
+  padding:20px;
+}
+
+.content{
+  padding: 20px;
+  color: black;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+
+.top{
+  color: black;
+  padding: 10px
+}
+
+.display{
+  position: relative;
+}
+
+.cont{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4;
+}
+
+.cont:empty{
+  display: none;
+}
+
+.stick{
+  text-align: center;  
+  display: block;
+  font-size: 50pt;
+  padding-top: 70px;
+  padding-left: 80px
+}
+
+.stick:hover{
+  color: black;
+}
+
+.cent{
+  text-align: center;
+  display: block;
+}
+
+.sec{
+  padding: 25px 10px;
+  background-color: #F4F4F4;
+  transition: 0.5s;
+}
+
+.profCont{
+  padding-left: 15px;
+}
+
+.profile{
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  width: 50px;
+  float: left;
+}
+
+.txt{
+  vertical-align: top;
+  font-size: 17px;
+  padding: 5px 10px 0px 115px;
+}
+
+.sub{
+  font-size: 1rem;
+  color: grey;
+}
+
+.new{
+  border-style: none none solid none;
+  border-color: #550d9e;
+}
+
+.sec:hover{
+  background-color: #BFBFBF;
+}
+
+
+/* ---------------------------------------------- */
+/* CSS styles for notifications */
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.notification-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.notification-item .notification-text {
+  flex: 1;
+}
+
+.notification-item .client-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.notification-item .assigned-by {
+  margin: 0;
+  color: #555;
+}
+
+
+.box2::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+  border-radius: 5px
+}
+
+.box2::-webkit-scrollbar-thumb
+{
+	background-color: black;
+	border: 2px solid black;
+  border-radius: 5px
+}
+
+
+
+.icons{
+  display2: inline;
+  float: right
+}
+
+.notification2{
+  padding-top: 30px;
+  position: relative;
+  display2: inline-block;
+}
+
+.number2{
+    height: 29px;
+    width: 28px;
+    background-color: #d63031;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.number2:empty {
+   display2: none;
+}
+
+.notBtn2{
+  transition: 0.5s;
+  cursor: pointer
+}
+
+.notBtn2 .fa{
+  font-size: 25pt;
+  padding-bottom: 10px;
+  color: #550d9e;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.box2{
+  width: 400px;
+  height: 0px;
+  border-radius: 10px;
+  /* transition: 0.5s; */
+  position: absolute;
+  overflow-y: scroll;
+  padding: 0px;
+  left: -300px;
+  margin-top: 5px;
+  background-color: #F4F4F4;
+  -webkit-box2-shadow: 10px 10px 23px 0px rgba(0,0,0,0.2);
+  -moz-box2-shadow: 10px 10px 23px 0px rgba(0,0,0,0.1);
+  box2-shadow: 10px 10px 23px 0px rgba(0,0,0,0.1);
+  cursor: context-menu;
+}
+
+.notBtn2 .fa:hover {
+  color: #d63031;
+}
+
+.notBtn2:hover > .box2{
+  height: 30vh
+}
+
+.content{
+  padding: 20px;
+  color: black;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+
+.top{
+  color: black;
+  padding: 10px
+}
+
+.display2{
+  position: relative;
+}
+
+.cont{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4;
+}
+
+.cont:empty{
+  display: none;
+}
+
+.stick{
+  text-align: center;  
+  display: block;
+  font-size: 50pt;
+  padding-top: 70px;
+  padding-left: 80px
+}
+
+.stick:hover{
+  color: black;
+}
+
+.cent{
+  text-align: center;
+  display: block;
+}
